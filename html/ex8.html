@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Analysis</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Word Analysis</h1>
+
+    <label for="wordInput">Enter a word:</label>
+    <input type="text" id="wordInput" placeholder="e.g. Madam, JavaScript">
+
+    <button onclick="analyzeWord()">Analyze</button>
+
+    <div class="result-box">
+        <h2>Analysis Result</h2>
+        <p><strong>Word:</strong> <span id="wordOutput">-</span></p>
+        <p><strong>Vowel Count:</strong> <span id="vowelCount">-</span></p>
+        <p><strong>Palindrome:</strong> <span id="palindromeCheck">-</span></p>
+    </div>
+
+    <a href="../index.html">Back to Home</a>
+</div>
+<script src="../js/ex8.js"></script>
+</body>
+</html>
