@@ -115,6 +115,31 @@ ul li a:hover {
     transform: scale(1.1);
 }
 
+.result-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.result-box h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.result-box p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.result-box span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
 @media (max-width: 600px) {
     .container {
         width: 95%;
